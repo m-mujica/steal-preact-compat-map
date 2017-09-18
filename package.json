@@ -1,0 +1,32 @@
+{
+  "name": "steal-preact-compat-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "preact": "^8.2.5",
+    "preact-compat": "^3.17.0",
+    "steal": "stealjs/steal#map-right"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-mujica/steal-preact-compat-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-mujica/steal-preact-compat-map/issues"
+  },
+  "homepage": "https://github.com/m-mujica/steal-preact-compat-map#readme",
+  "steal": {
+    "map": {
+      "react": "preact-compat",
+      "react-dom": "preact-compat"
+    }
+  }
+}
